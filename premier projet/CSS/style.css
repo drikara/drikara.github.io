@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+    background-color: black;
+    
+    
+}
+
+
+
+/* menu*/
+.menu_logo{
+    width: 100%;
+    height: 150px;
+    padding: 1rem 5%;
+    display: flex;
+   justify-content: space-between;
+   
+   
+   
+}
+
+.menu_logo ul li{
+    list-style-type: none;
+   
+    
+    
+}
+.menu_logo ul li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+     padding: 0.5rem;
+     margin: 0.5rem;
+    color: white;
+    
+}
+.menu_logo ul li a:hover{
+    color: orange;
+}
+#logo{
+    font-size: 1.4rem;
+    
+}
+.menu_logo ul{
+    display: flex;
+     margin-top: 1.1rem;
+     margin-left: 50%;
+    
+}
+
+.menu_logo #logo{
+    margin-top: 1%;
+    font-size: 1.1rem;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+em,span{
+    color: wheat;
+}
+a span:hover{
+    color: orange;
+    
+}
+a span:visited{
+    color: red;
+}
+a span:link{
+    color: wheat;
+}
+a span:active{
+    color: green;
+}
+
+/*menu*/
+
+/*bloc 1*/
+
+.bloc1{
+    width: 80%;
+    margin: 4rem; 
+}
+.bloc1 h1{
+    margin-bottom: 2rem;
+    width: 25%;
+    color: wheat;
+}
+
+.lien .b1:hover{
+    background-color: aqua;
+    padding: 0.5rem;
+    border: none;
+    transition-duration: 1s;
+    
+}
+.lien .b2:hover{
+    background-color: orange;
+    padding: 0.5rem;
+    border: none;
+    transition-duration: 1s;
+    
+}
+.lien .b2{
+    border: 1px solid wheat;
+    color: wheat;
+    padding: 0.99rem;
+    border: 2rem solid wheats;
+    text-decoration: none;
+
+    
+}
+
+.lien a{
+   
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.lien .b1{
+    background-color: rgb(218, 180, 111);
+    color: white;
+    padding: 0.99rem;
+    text-decoration: none;
+    border: 2px solid wheat;
+    
+}
+
+/*fin bloc 1*/
+
+/* bloc2*/
+.bloc2{
+    width: 90%;
+    margin:  4rem; 
+}
+.bloc2 h2{
+    margin-bottom: 2rem;
+    width: 30.85%; 
+    color: wheat;
+}
+.bloc2 .p_1{
+    margin-bottom: 1rem;
+    
+}
+.bloc2 .p_2{
+    margin-bottom: 2rem;
+    width: 40%; 
+}
+.bloc2 p{
+    font-size: 1rem; 
+    color: wheat;
+}
+/* fin bloc2*/
+
+
+
+
+.sec_1{
+    display: flex;
+    height: 35rem;
+    
+    
+}
+
+/*gauche */
+.gauche{
+    margin-right: 3rem;
+    margin-top: 13rem;
+}
+.gauche p{
+   
+    padding: 0.5rem;
+    color: wheat;
+    width: 9rem;
+   
+    
+}
+.gauche .num{
+    border: 1px solid wheat;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    
+}
+
+/* fin gauche */
+
+
+/*responsive */ 
+
+@media screen and (max-width:338px) {
+   ul{
+      flex-wrap: wrap;
+      
+      
+   }
+   .menu_logo ul li a{
+    font-size: 0.7rem;
+   }
+
+    
+}
+
+@media screen and (max-width:975px) {
+
+    body{
+        
+        background-position: center center;
+        
+        
+        
+    }
+   .bloc1{
+    flex-wrap: wrap;
+    
+   }
+   .bloc1 h1{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    
+    
+    
+   }
+   .lien{
+    
+    width: 50%;
+    
+    
+    
+   }
+
+   
+.lien .b1{
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid rgb(14, 216, 223);
+    color: rgb(26, 22, 16);
+    background-color:rgb(11, 213, 240) ;
+    text-decoration: none;
+    padding: 0.5rem;
+    
+}
+   .lien .b2{
+    display: block;
+    border: 1px solid wheat;
+    color: wheat;
+    text-decoration: none;
+    padding: 0.5rem;
+    
+    
+}
+
+
+
+
+.lien a{
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5rem;
+    
+}
+
+.bloc2 h2{
+    margin-bottom: 2rem;
+    width: 90%; 
+    color: wheat;
+    font-size: 1rem;
+}
+.bloc2 .p_1{
+    margin-bottom: 1rem;
+    width: 90%;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.bloc2 .p_2{
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: justify;
+    width: 90%;
+    
+}
+
+
+
+
+.gauche p{
+   
+  font-size: 0.7rem;
+   
+    
+}
+
+.gauche{
+    position: absolute;
+     margin-left: 5rem;
+    margin-top: 14.5rem;
+    align-items: center;
+}
+
+
+.menu_logo #logo{
+    margin-left: 50px;
+}
+
+
+     
+ }
+
+
+
+
+ @media screen and (max-width:800px){
+    
+    ul{
+        flex-wrap: wrap;
+    }
+    .menu_logo ul li a{
+        font-size: 0.9rem;
+    }
+ }
+
+ @media screen and (max-width:900px){
+    
+    .gauche{
+        position: absolute;
+         margin-left: 5rem;
+        margin-top: 14.5rem;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .bloc2 h2{
+        margin-top: 5rem;
+        width: 50%; 
+        color: wheat;
+        font-size: 1rem;
+    }
+    
+    .bloc2 .p_1{
+        margin-bottom: 1rem;
+        width: 50%;
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+    .bloc2 .p_2{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        text-align: justify;
+        width: 50%;
+        
+    }
+
+}
+    
+
+
+
+
+    @media screen and (max-width:968px){
+
+
+        .gauche{
+            position: absolute;
+             margin-left: 5rem;
+            margin-top: 14.5rem;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+    
+        .bloc2 h2{
+            margin-top: 5rem;
+            width: 50%; 
+            font-size: 1rem;
+        }
+    }
+
+
+  
+    @media screen and (max-width:945px){
+
+      
+        .gauche{
+            position: absolute;
+             margin-left: 5rem;
+            margin-top: 14.5rem;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+    
+        .bloc2 h2{
+            margin-top: 5rem;
+            width: 50%; 
+            color: wheat;
+            font-size: 1rem;
+        }
+
+
+        .bloc2 .p_1{
+          
+            width: 50%;
+            
+        }
+        .bloc2 .p_2{
+           
+            width: 50%;
+            
+        }
+
+
+
+    }
+   
+
+
+
+
+
+
+
